@@ -10,7 +10,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-img {
+.center img {
     border-radius: 0 50%;    
 }
 .header {
@@ -110,7 +110,6 @@ img {
     text-decoration: none;
     padding-right:30px;
 }
-
 
 .content .media {
     margin-right: 0;
