@@ -177,3 +177,13 @@ body {
 .footer a {
     color: inherit;
 }
+
+.english {
+    width: 500px;
+    margin: 50px auto;
+}
+
+input[type=button] {
+    min-width: 150px;
+    height: 30px;
+}

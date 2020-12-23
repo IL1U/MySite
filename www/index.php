@@ -12,6 +12,7 @@
 			<a href="#" onclick="Zagadki()">Загадки</a>
 			<a href="#" onclick="Ugadayka()">Угадайка</a>
 			<a href="#" onclick="slepVvod()">Слепой ввод</a>
+			<a href="ProgJS\english.html">Учим английский</a>
 			<a href="Sites\interior\index.html">Сайт "Interior"</a>
 		</div>
 		<h1>Личный сайт студента GeekBrains</h1>
@@ -23,7 +24,8 @@
 				<p>На этом сайте вы сможете сыграть в несколько игр, которые я написал на JavaScript: <br>
 					<a href="#" onclick="Zagadki()">Загадки</a>,
 					<a href="#" onclick="Ugadayka()">Угадайка</a>,
-					<a href="#" onclick="slepVvod()">Слепой ввод</a>
+					<a href="#" onclick="slepVvod()">Слепой ввод</a>,
+					<a href="ProgJS\english.html">Учим английский</a>.
 				</p>
 				<p>А также посмотреть созданные мной сайты.</p>
 			</div>
