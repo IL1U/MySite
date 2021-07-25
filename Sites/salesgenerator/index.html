@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop-up form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrap">
+        <button class="buttonShowPopUp" onclick="showPopUp()">Кликни</button>
+        <div class="popUp hidden">
+            <div class="popUp__shadow">
+                <div class="popUp__box">
+                    <img src="img/close.png" alt="close" class="popUp__closeButton" onclick='closePopUp()'>
+                    <div class="popUp__offerText">
+                        Получите набор файлов<br>для руководителя:
+                    </div>
+                    <div class="popUp__offer">
+                        <div class="popUp__offerIcon">
+                            <a href="#"><img src="img/icon_doc.png" alt="icon"></a>
+                            <a href="#"><img src="img/icon_xls.png" alt="icon"></a>
+                            <a href="#"><img src="img/icon_pdf.png" alt="icon"></a>
+                            <a href="#"><img src="img/icon_pdf.png" alt="icon"></a>
+                            <a href="#"><img src="img/icon_pdf.png" alt="icon"></a>
+                            <a href="#"><img src="img/icon_pdf.png" alt="icon"></a>
+                            <a href="#"><img src="img/icon_pdf.png" alt="icon"></a>   
+                        </div>
+                        <img src="img/book.png" alt="book" class="book">
+                        <img src="img/journal.png" alt="journal" class="journal">
+                        <img src="img/phone.png" alt="phone" class="phone">
+                    </div>
+                    <div class="popUp__form">
+                        <form action="php/send.php">
+                            <label><div class="popUp__textForm">Введите Email для получения файлов:</div>
+                                <input class="popUp__itemInput" type="email" name="email" Placeholder="Email" autocomplete="off">
+                            </label>
+                            <br>
+                            <label><div class="popUp__textForm">Введите телефон для подтверждения доступа:</div>
+                                <input class="popUp__itemInput" type="tel" name="tel" placeholder="+7 (000) 000-00-00" pattern="\+7\-[0-9]{3}\-[0-9]{3}\-[0-9]{2}\-[0-9]{2}" autocomplete="off" Required>
+                            </label>
+                            <br>
+                            <div class="popUp__wrapButtonSubmit">
+                                <div class="popUp__buttonSubmitShadow"></div>
+                                <button class="popUp__buttonSubmit" type="submit">
+                                    <span>Скачать файлы</span>
+                                    <img src="img/hand.png" alt="icon">                                
+                                </button>
+                                <div class="popUp__textUnderForm"><pre>PDF 4,7 MB      DOC 0,8 MB      XLS 1,2 MB</pre></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+    <script src="js/popup.js"></script>
+</body>
+</html>
