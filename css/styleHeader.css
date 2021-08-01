@@ -1,0 +1,28 @@
+.header {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.7em;
+    min-width: 1300px;
+    border-bottom: 1px solid #b5b7ba;
+    background-color: #dfdfdf;
+    margin: 0 auto;
+    height: 49px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.header .selected {
+    color: #000;
+    font-weight: bold;
+}
+
+.header a {
+    color: #4d4d4d;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: left;
+    text-decoration: none;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    padding-right: 40px;
+}

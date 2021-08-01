@@ -1,0 +1,8 @@
+.wrapSites ul {
+    list-style: circle;    
+}
+
+li a {
+    font-size: 20px;
+    text-decoration: none;
+}

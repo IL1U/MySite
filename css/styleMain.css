@@ -1,0 +1,30 @@
+.center img {
+    border-radius: 50%;
+    margin-left: 17px;
+    width: 389px;
+}
+
+.box_text {
+    width: 671px;
+    background-color: #ffffff;
+    float: right;
+    padding: 49px 48px 51px 76px;
+    margin-bottom: 50px;
+}
+
+.box_text p {
+    color: #242424;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: left;
+    margin-bottom: 31px;
+}
+
+.box_text a  {
+    color: #40678a;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+    text-decoration: none;
+    padding-right:30px;
+}

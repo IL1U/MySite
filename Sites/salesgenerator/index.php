@@ -5,9 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pop-up form</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="..\..\css\styleHeader.css">
+    <link rel="stylesheet" href="..\..\css\styleFooter.css">
+    <script src="js/popup.js" async></script>
 </head>
 <body>
+    <header class="header">
+		<a href="/">Главная</a>
+		<a href="/?page=games">Игры на JS</a>
+		<a href="/?page=sites">Сайты</a>
+	</header>
     <div class="wrap">
         <button class="buttonShowPopUp" onclick="showPopUp()">Кликни</button>
         <div class="popUp hidden">
@@ -38,7 +46,12 @@
                             </label>
                             <br>
                             <label><div class="popUp__textForm">Введите телефон для подтверждения доступа:</div>
-                                <input class="popUp__itemInput" type="tel" name="tel" placeholder="+7 (000) 000-00-00" pattern="\+7\-[0-9]{3}\-[0-9]{3}\-[0-9]{2}\-[0-9]{2}" autocomplete="off" Required>
+                                <input class="popUp__itemInput" type="tel" name="tel"
+                                       pattern="\+7\s?[\(]{0,1}\d{3}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" 
+                                       placeholder="+7 (000) 000-00-00"
+                                       autocomplete="off" 
+                                       title="Пожалуйста, введите телефон в формате: +7(000)000-00-00" 
+                                       required="required">
                             </label>
                             <br>
                             <div class="popUp__wrapButtonSubmit">
@@ -54,7 +67,9 @@
                 </div>  
             </div>
         </div>
-    </div>
-    <script src="js/popup.js"></script>
+    </div>    
+    <footer class="footer">
+		Copyright, <?php echo date('Y'); ?> &copy; Sotnikov Sergey
+	</footer>
 </body>
 </html>

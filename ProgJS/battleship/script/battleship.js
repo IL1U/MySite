@@ -49,7 +49,7 @@ function initNewGame () {
 			const td = document.getElementById("2"+i);
 			td.setAttribute("style", msg);
 			const home = document.createElement("a");
-			home.setAttribute("href", "..\\..\\index.html");			
+			home.setAttribute("href", "..\\..\\index.php");			
 			td.append(home);
 		}
 	}
